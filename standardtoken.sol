@@ -587,9 +587,9 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 pragma solidity ^0.8.0;
 
 
-contract PepeToken is Ownable, ERC20 {
+contract BerryToken is Ownable, ERC20 {
     
-    constructor(uint256 _totalSupply) ERC20("Pepe", "PEPE") {
+    constructor(uint256 _totalSupply) ERC20("Berry", "BERY") {
         _mint(msg.sender, _totalSupply);
     }
 
